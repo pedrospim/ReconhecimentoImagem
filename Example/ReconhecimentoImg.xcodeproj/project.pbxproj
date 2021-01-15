@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		175BB5EE0E303903C68A9748 /* ReconhecimentoImg.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ReconhecimentoImg.podspec; path = ../ReconhecimentoImg.podspec; sourceTree = "<group>"; };
+		175BB5EE0E303903C68A9748 /* ReconhecimentoImg.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReconhecimentoImg.podspec; path = ../ReconhecimentoImg.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2682DBA2E6F61EC5B01B03FC /* Pods-ReconhecimentoImg_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReconhecimentoImg_Example.release.xcconfig"; path = "Target Support Files/Pods-ReconhecimentoImg_Example/Pods-ReconhecimentoImg_Example.release.xcconfig"; sourceTree = "<group>"; };
-		36DB369F06F37AE893266EF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		36DB369F06F37AE893266EF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ReconhecimentoImg_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReconhecimentoImg_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* ReconhecimentoImg_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReconhecimentoImg_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7667E51C960813AE6B7B0199 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7667E51C960813AE6B7B0199 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9C5F73AF414D8F3494E96A9F /* Pods-ReconhecimentoImg_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReconhecimentoImg_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ReconhecimentoImg_Tests/Pods-ReconhecimentoImg_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0C1E46011619F6388B5081C /* Pods_ReconhecimentoImg_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReconhecimentoImg_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F374EA41F7B4E38731A425 /* Pods-ReconhecimentoImg_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReconhecimentoImg_Example.debug.xcconfig"; path = "Target Support Files/Pods-ReconhecimentoImg_Example/Pods-ReconhecimentoImg_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				9C5F73AF414D8F3494E96A9F /* Pods-ReconhecimentoImg_Tests.debug.xcconfig */,
 				EBA8EC7B23E9AC55A306A5B9 /* Pods-ReconhecimentoImg_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

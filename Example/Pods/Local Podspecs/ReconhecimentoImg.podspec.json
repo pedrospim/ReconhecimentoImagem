@@ -1,0 +1,22 @@
+{
+  "name": "ReconhecimentoImg",
+  "version": "0.1.0",
+  "summary": "A short description of ReconhecimentoImg.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pepespim06@gmail.com/ReconhecimentoImg",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pepespim06@gmail.com": "pepespim06@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pepespim06@gmail.com/ReconhecimentoImg.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ReconhecimentoImg/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module ReconhecimentoImg {
+  umbrella header "ReconhecimentoImg-umbrella.h"
+
+  export *
+  module * { export * }
+}

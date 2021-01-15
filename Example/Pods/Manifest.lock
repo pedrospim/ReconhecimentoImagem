@@ -1,0 +1,16 @@
+PODS:
+  - ReconhecimentoImg (0.1.0)
+
+DEPENDENCIES:
+  - ReconhecimentoImg (from `../`)
+
+EXTERNAL SOURCES:
+  ReconhecimentoImg:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReconhecimentoImg: 9d97ffce0004697a190ecbf5c66eb4cfa1f92bbb
+
+PODFILE CHECKSUM: c4eb756b1d2a189c6eac494a0bfd5a9367bb2b1c
+
+COCOAPODS: 1.10.1
