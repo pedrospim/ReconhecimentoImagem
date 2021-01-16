@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pepespim06@gmail.com' => 'pepespim06@gmail.com' }
-  s.source           = { :git => 'https://github.com/pedrospim/ReconhecimentoImagem.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pedrospim/ReconhecimentoImagem.git', :commit => "3b5bf94515b9cea461e6902078bda3ba81545a65" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'ReconhecimentoImg/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'ReconhecimentoImg' => ['ReconhecimentoImg/Assets/*.png']

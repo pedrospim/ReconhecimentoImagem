@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,9 @@
 		32F3C38689126CC5816A2D40E8420C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7A3CC9EDC54CB75AE1F81492F61CB301 /* Pods-ReconhecimentoImg_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEFE5F4D6379163AC16FB3CF76A0E88 /* Pods-ReconhecimentoImg_Example-dummy.m */; };
 		9B96AB074179FA93D0A272F8F8FF3F9A /* Pods-ReconhecimentoImg_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A47ACA7C139730276FEA97B8A774C98E /* Pods-ReconhecimentoImg_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A248D03D25B34C3C00903806 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A248D03C25B34C3C00903806 /* MobileNetV2.mlmodel */; };
+		A248D03E25B34C3C00903806 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A248D03C25B34C3C00903806 /* MobileNetV2.mlmodel */; };
+		A248D03F25B34C3C00903806 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A248D03C25B34C3C00903806 /* MobileNetV2.mlmodel */; };
 		A2DD649425B2311D008B1FBB /* AnalysisResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD649025B2311C008B1FBB /* AnalysisResultViewModel.swift */; };
 		A2DD649525B2311D008B1FBB /* AnalysisResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD649025B2311C008B1FBB /* AnalysisResultViewModel.swift */; };
 		A2DD649625B2311D008B1FBB /* AnalysisResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD649025B2311C008B1FBB /* AnalysisResultViewModel.swift */; };
@@ -23,9 +26,6 @@
 		A2DD649D25B2311D008B1FBB /* ImageAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD649325B2311D008B1FBB /* ImageAnalyzerService.swift */; };
 		A2DD649E25B2311D008B1FBB /* ImageAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD649325B2311D008B1FBB /* ImageAnalyzerService.swift */; };
 		A2DD649F25B2311D008B1FBB /* ImageAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD649325B2311D008B1FBB /* ImageAnalyzerService.swift */; };
-		A2DD64A425B2312F008B1FBB /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2DD64A325B2312F008B1FBB /* MobileNetV2.mlmodel */; };
-		A2DD64A525B2312F008B1FBB /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2DD64A325B2312F008B1FBB /* MobileNetV2.mlmodel */; };
-		A2DD64A625B2312F008B1FBB /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2DD64A325B2312F008B1FBB /* MobileNetV2.mlmodel */; };
 		A71859F750EFED6D8230374B608A6BB0 /* ReconhecimentoImg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2939CD9B2C6D282FAA2DBACB75975E8 /* ReconhecimentoImg-dummy.m */; };
 		AF59F5273004E95CCDE9BEFB08839823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CBE1F2A36D9438D3E621191423D9C6DF /* Pods-ReconhecimentoImg_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABAD33C79AE69B5C874B9E33B7C5CDC /* Pods-ReconhecimentoImg_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,12 +69,12 @@
 		98A8EA39BF22E632B61B47C397E2BC5E /* Pods-ReconhecimentoImg_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReconhecimentoImg_Tests-Info.plist"; sourceTree = "<group>"; };
 		9CF2FDF7108EDEE4A03A93583D1D3474 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A248D03C25B34C3C00903806 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		A2939CD9B2C6D282FAA2DBACB75975E8 /* ReconhecimentoImg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReconhecimentoImg-dummy.m"; sourceTree = "<group>"; };
 		A2DD649025B2311C008B1FBB /* AnalysisResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisResultViewModel.swift; sourceTree = "<group>"; };
 		A2DD649125B2311D008B1FBB /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisResultViewController.swift; sourceTree = "<group>"; };
 		A2DD649225B2311D008B1FBB /* AnalysisResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalysisResultViewController.xib; sourceTree = "<group>"; };
 		A2DD649325B2311D008B1FBB /* ImageAnalyzerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAnalyzerService.swift; sourceTree = "<group>"; };
-		A2DD64A325B2312F008B1FBB /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		A47ACA7C139730276FEA97B8A774C98E /* Pods-ReconhecimentoImg_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReconhecimentoImg_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A808D874E0017DD46927B2AFC16FEA8E /* Pods_ReconhecimentoImg_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReconhecimentoImg_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB43EB995128C8D51A55BA563BCCB03A /* ReconhecimentoImg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReconhecimentoImg.release.xcconfig; sourceTree = "<group>"; };
@@ -150,6 +150,7 @@
 				A2DD649225B2311D008B1FBB /* AnalysisResultViewController.xib */,
 				A2DD649025B2311C008B1FBB /* AnalysisResultViewModel.swift */,
 				A2DD649325B2311D008B1FBB /* ImageAnalyzerService.swift */,
+				A248D03C25B34C3C00903806 /* MobileNetV2.mlmodel */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -158,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				A2DD64AB25B234B5008B1FBB /* Classes */,
-				A2DD64A325B2312F008B1FBB /* MobileNetV2.mlmodel */,
 				B69DDC6D358E4693C24DDF5BCADC8948 /* Pod */,
 				E65CDF09DFBFD1C98C47A950C7670390 /* Support Files */,
 			);
@@ -360,7 +360,7 @@
 				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -411,10 +411,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A248D03E25B34C3C00903806 /* MobileNetV2.mlmodel in Sources */,
 				CCDBB0A24C836B7F71118F4B9D23D45F /* Pods-ReconhecimentoImg_Tests-dummy.m in Sources */,
 				A2DD649825B2311D008B1FBB /* AnalysisResultViewController.swift in Sources */,
 				A2DD649525B2311D008B1FBB /* AnalysisResultViewModel.swift in Sources */,
-				A2DD64A525B2312F008B1FBB /* MobileNetV2.mlmodel in Sources */,
 				A2DD649E25B2311D008B1FBB /* ImageAnalyzerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,10 +423,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A248D03F25B34C3C00903806 /* MobileNetV2.mlmodel in Sources */,
 				A71859F750EFED6D8230374B608A6BB0 /* ReconhecimentoImg-dummy.m in Sources */,
 				A2DD649925B2311D008B1FBB /* AnalysisResultViewController.swift in Sources */,
 				A2DD649625B2311D008B1FBB /* AnalysisResultViewModel.swift in Sources */,
-				A2DD64A625B2312F008B1FBB /* MobileNetV2.mlmodel in Sources */,
 				A2DD649F25B2311D008B1FBB /* ImageAnalyzerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,10 +435,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A248D03D25B34C3C00903806 /* MobileNetV2.mlmodel in Sources */,
 				7A3CC9EDC54CB75AE1F81492F61CB301 /* Pods-ReconhecimentoImg_Example-dummy.m in Sources */,
 				A2DD649725B2311D008B1FBB /* AnalysisResultViewController.swift in Sources */,
 				A2DD649425B2311D008B1FBB /* AnalysisResultViewModel.swift in Sources */,
-				A2DD64A425B2312F008B1FBB /* MobileNetV2.mlmodel in Sources */,
 				A2DD649D25B2311D008B1FBB /* ImageAnalyzerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,7 +478,11 @@
 				INFOPLIST_FILE = "Target Support Files/ReconhecimentoImg/ReconhecimentoImg-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ReconhecimentoImg/ReconhecimentoImg.modulemap";
 				PRODUCT_MODULE_NAME = ReconhecimentoImg;
 				PRODUCT_NAME = ReconhecimentoImg;
@@ -510,7 +514,11 @@
 				INFOPLIST_FILE = "Target Support Files/ReconhecimentoImg/ReconhecimentoImg-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ReconhecimentoImg/ReconhecimentoImg.modulemap";
 				PRODUCT_MODULE_NAME = ReconhecimentoImg;
 				PRODUCT_NAME = ReconhecimentoImg;
@@ -608,7 +616,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ReconhecimentoImg_Example/Pods-ReconhecimentoImg_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ReconhecimentoImg_Example/Pods-ReconhecimentoImg_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -643,7 +655,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ReconhecimentoImg_Tests/Pods-ReconhecimentoImg_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ReconhecimentoImg_Tests/Pods-ReconhecimentoImg_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -678,7 +694,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ReconhecimentoImg_Example/Pods-ReconhecimentoImg_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ReconhecimentoImg_Example/Pods-ReconhecimentoImg_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -751,7 +771,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -774,7 +795,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ReconhecimentoImg_Tests/Pods-ReconhecimentoImg_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ReconhecimentoImg_Tests/Pods-ReconhecimentoImg_Tests.modulemap";
 				OTHER_LDFLAGS = "";

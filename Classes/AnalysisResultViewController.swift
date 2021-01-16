@@ -21,7 +21,7 @@ class AnalysisResultViewController: UIViewController {
     //private var results:  [VNClassificationObservation]
     private var imageToLoad: UIImage?
     
-    let viewModel: AnalysisResultViewModel = AnalysisResultViewModel()
+    let viewModel: AnalysisResultViewModel = AnalysisResultViewModel() 
 
     init(image: UIImage) {
         let bundle = Bundle(for: AnalysisResultViewController.self)
